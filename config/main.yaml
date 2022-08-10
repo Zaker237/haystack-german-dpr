@@ -1,0 +1,17 @@
+data:
+  train_filename: ???
+  dev_filename: ???
+  doc_dir: ???
+
+model:
+  query_model: ???
+  passage_model: ???
+
+training:
+  n_gpu: ???
+  batch_size: 16
+
+save:
+  save_dir: ???
+  query_encoder_dir: query
+  passage_encoder_dir: passage
